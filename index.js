@@ -93,7 +93,7 @@ function generateCartDescription() {
   return `${cartDescription}.`
 }
 
-function searchCartFortItemToRemove(itemName) {
+function searchCartForItemToRemove(itemName) {
   var searchResult
   for (var i=0; i<getCart().length; i++) {
     if (getCart()[i].itemName === itemName) {searchResult = getCart()[i]}
